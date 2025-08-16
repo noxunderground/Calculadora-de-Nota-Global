@@ -1,8 +1,8 @@
 <?php
-$host = 'localhost';
-$db   = 'escola';
-$user = 'root';
-$pass = '';
+$host = 'sql211.byetcluster.com';
+$db   = 'if0_39717921_mydb';
+$user = 'if0_39717921';
+$pass = 'Pjd7B4ZmBCG3';
 $charset = 'utf8mb4';
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
@@ -30,4 +30,5 @@ $pdo->exec("
         data_cadastro TIMESTAMP DEFAULT CURRENT_TIMESTAMP
     )
 ");
+
 ?>
